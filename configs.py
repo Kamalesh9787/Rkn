@@ -34,17 +34,17 @@ from os import path, getenv
 import os, time 
 
 class Config:
-    API_ID = int(getenv("API_ID", "0112234"))
-    API_HASH = getenv("API_HASH", "abcdefg")
-    BOT_TOKEN = getenv("BOT_TOKEN", "1234567891:rkndeveloperDEhdhyjjvjjftSEW")
+    API_ID = int(getenv("API_ID", "25599491"))
+    API_HASH = getenv("API_HASH", "c8e3c0561cf148a6504f27b111fc3698")
+    BOT_TOKEN = getenv("BOT_TOKEN", "")
  
-    FORCE_SUB = int(getenv("FORCE_SUB", "-1001819787652"))
-    ADMIN = list(map(int, getenv("ADMIN", "6151758586").split()))
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002120760645"))
+    FORCE_SUB = int(getenv("FORCE_SUB", "-1002053727982"))
+    ADMIN = list(map(int, getenv("ADMIN", "5983189506").split()))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002037384930"))
     
     # database configs
     DB_URL = os.environ.get("DB_URL", "")
-    DB_NAME = os.environ.get("DB_NAME", "")
+    DB_NAME = os.environ.get("DB_NAME", "Cluster0")
     
     #web response 
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
