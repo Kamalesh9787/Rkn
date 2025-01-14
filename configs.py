@@ -54,7 +54,7 @@ class Config:
     RKN_PIC = os.environ.get("RKN_PIC", "https://cdn.prod.website-files.com/6462655e6f1811aabe80d8bd/665c8d03c23393fe530a63f3_Top%2010%20Telegram%20channel%20bots-3.png")
     
  # Subsprice Gif & Auto Request Accept
-SURPRICE = os.environ.get("SURPRICE", "https://envs.sh/AGr.jpg").split()
+    SURPRICE = os.environ.get("SURPRICE", "https://envs.sh/AGr.jpg").split()
     
     LOGO = """
 ╔═╗╔╦╗╔═╦╗  ╔══╗╔═╗╔╗─╔╗╔═╗╔╗─╔═╗╔═╗╔═╗╔═╗
