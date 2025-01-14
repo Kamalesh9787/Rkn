@@ -51,7 +51,7 @@ class Config:
     BOT_UPTIME  = time.time()
     PORT = os.environ.get("PORT", "8080")
     
-    RKN_PIC = os.environ.get("RKN_PIC", "https://graph.org/file/e846f9375e9d4f4975ce4.jpg")
+    RKN_PIC = os.environ.get("RKN_PIC", "https://cdn.prod.website-files.com/6462655e6f1811aabe80d8bd/665c8d03c23393fe530a63f3_Top%2010%20Telegram%20channel%20bots-3.png")
     
  # Subsprice Gif & Auto Request Accept
 
