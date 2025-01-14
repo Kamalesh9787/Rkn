@@ -50,7 +50,7 @@ async def approve_request(bot, m):
         await rkn_botz.add_chat(bot, m)
         await bot.approve_chat_join_request(m.chat.id, m.from_user.id)
         img = random.choice(rkn1.SURPRICE)
-        await bot.send_video(m.from_user.id, img, "**Hey, {}!\nWelcome To {}\n\n__Pᴏᴡᴇʀᴅ Bʏ : @RknDeveloper__**".format(m.from_user.mention, m.chat.title), reply_markup=InlineKeyboardMarkup([[
+        await bot.send_video(m.from_user.id, img, "**Hey, {}!\nWelcome To {}\n\n__Pᴏᴡᴇʀᴅ Bʏ : @Ultrabotss__**".format(m.from_user.mention, m.chat.title), reply_markup=InlineKeyboardMarkup([[
         InlineKeyboardButton("✛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀɴɴᴇʟ ࿇", url=f"https://t.me/{bot.username}?startchannel=Bots4Sale&admin=invite_users+manage_chat")
         ],[
         InlineKeyboardButton("✛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ࿇", url=f"https://t.me/{bot.username}?startgroup=Bots4Sale&admin=invite_users+manage_chat")]]))
@@ -83,8 +83,8 @@ async def start_commond(bot, m :Message):
                 #⚠️ don't change source code & source link ⚠️ #
                 InlineKeyboardButton("─シ｡Aʙᴏᴜᴛ｡シ─", callback_data = "about")
                     ],[
-                InlineKeyboardButton("𖣘 Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ", url="https://t.me/RknDeveloper"),
-                InlineKeyboardButton("⚘ Sᴜᴘᴘᴏʀᴛ ⚘", url="https://t.me/RknBots_Support")
+                InlineKeyboardButton("𖣘 Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ", url="https://t.me/ultrabotss"),
+                InlineKeyboardButton("⚘ Sᴜᴘᴘᴏʀᴛ ⚘", url="https://t.me/ultrabotss")
                 ],[
                 InlineKeyboardButton("✛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀɴɴᴇʟ ࿇", url=f"https://t.me/{bot.username}?startchannel=Bots4Sale&admin=invite_users+manage_chat")
                 ],[
@@ -99,8 +99,8 @@ async def start_query(bot, cb : CallbackQuery):
                 #⚠️ don't change source code & source link ⚠️ #
                 InlineKeyboardButton("─シ｡Aʙᴏᴜᴛ｡シ─", callback_data = "about")
                     ],[
-                InlineKeyboardButton("𖣘 Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ", url="https://t.me/RknDeveloper"),
-                InlineKeyboardButton("⚘ Sᴜᴘᴘᴏʀᴛ ⚘", url="https://t.me/RknBots_Support")
+                InlineKeyboardButton("𖣘 Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ", url="https://t.me/ultrabotss"),
+                InlineKeyboardButton("⚘ Sᴜᴘᴘᴏʀᴛ ⚘", url="https://t.me/ultrabotss")
                 ],[
                 InlineKeyboardButton("✛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀɴɴᴇʟ ࿇", url=f"https://t.me/{bot.username}?startchannel=Bots4Sale&admin=invite_users+manage_chat")
                 ],[
@@ -113,18 +113,18 @@ async def start_query(bot, cb : CallbackQuery):
 async def about_query(bot, update):
 	await update.message.edit_text(
 	    #⚠️ don't change source code & source link ⚠️ #
-	    text = """<b>» Mʏ Nᴀᴍᴇ: <a href='https://t.me/Rkn_AutoRequestApprovebot'>Aᴜᴛᴏ Jᴏɪɴ Rᴇǫᴜᴇsᴛ Bᴏᴛ</a>
+	    text = """<b>» Mʏ Nᴀᴍᴇ: <a href='https://t.me/ultrabotss'>Aᴜᴛᴏ Jᴏɪɴ Rᴇǫᴜᴇsᴛ Bᴏᴛ</a>
 ‣ Cʀᴇᴀᴛᴏʀ : <a href='tg://settings'>ᴛʜɪs Pᴇʀsᴏɴ</a>
-‣ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/RknDeveloperr'>ʀᴋɴ Dᴇᴠᴇʟᴏᴘᴇʀ</a>
+‣ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/ultrabotss'>ʀᴋɴ Dᴇᴠᴇʟᴏᴘᴇʀ</a>
 ‣ Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org'>Pʏʀᴏɢʀᴀᴍ</a>
 ‣ Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org'>Pʏᴛʜᴏɴ 3</a>
 ‣ Dᴀᴛᴀ Bᴀsᴇ : <a href='https://www.mongodb.com/'>Mᴏɴɢᴏ Dʙ</a>
 ‣ Bᴏᴛ Sᴇʀᴠᴇʀ : ‣[Vᴘs]‣<a href='https://app.koyeb.com/'>[Kᴏʏᴇʙ]</a>
-‣ Sᴏᴜʀᴄᴇ : <a href='https://github.com/RknDeveloper/Rkn_Auto-Request-Approve-bot'> Sᴏᴜʀᴄᴇ Cᴏᴅᴇ </a>
+‣ Sᴏᴜʀᴄᴇ : <a href='https://t.me/ultrabotss'> Sᴏᴜʀᴄᴇ Cᴏᴅᴇ </a>
 ‣ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ2.1.1 [sᴛᴀʙʟᴇ]</b>""",
 	    reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("❣️ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ ❣️", url="https://github.com/RknDeveloper/Rkn_Auto-Request-Approve-bot")],[
+               InlineKeyboardButton("❣️ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ ❣️", url="https://t.me/ultrabotss")],[
                InlineKeyboardButton("→ Bᴀᴄᴋ", callback_data = "start")
                ]]
             )
